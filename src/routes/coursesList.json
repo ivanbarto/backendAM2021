@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "nombre": "Mecánica básica",
+        "descripcion": "Con este curso de mecánica básica serás capaz de lidiar con los problemas generales del automotor",
+        "activo": true,
+        "dia_hora": "Viernes, 15 de diciembre - 17:00",
+        "duracion": 4,
+        "id_evento": "2"
+    },
+    {
+        "id" : 2,
+        "nombre": "Pintado de carrocerías",
+        "descripcion": "Con este curso de pintura básica serás capaz de pintar cualquier vehículo muy facilmente",
+        "activo": true,
+        "dia_hora": "Jueves, 14 de diciembre - 17:00",
+        "duracion": 3,
+        "id_evento": "2"
+    },
+    {
+        "id" : 3,
+        "nombre": "Electricidad doméstica",
+        "descripcion": "Con este curso de Electricidad doméstica serás capaz de lidiar con los problemas eléctricos más comunes de tu hogar.",
+        "activo": true,
+        "dia_hora": "Miércoles, 13 de diciembre - 17:00",
+        "duracion": 4,
+        "id_evento": "1"
+    },
+    {
+        "id" : 4,
+        "nombre": "Jardinería",
+        "descripcion": "Con este curso de jardinería básica serás capaz de mantener tu propio jardin con resultados increíbles",
+        "activo": true,
+        "dia_hora": "Martes, 12 de diciembre - 17:00",
+        "duracion": 2,
+        "id_evento": "1"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "email" : "test@email.com",
+        "password" : "123123",
+        "nombre" : "Test",
+        "appelido" : "User",
+        "telefono" : "3485736764"
+    },
+    {
+        "id" : 2,
+        "email" : "test2@email.com",
+        "password" : "123123",
+        "nombre" : "Second",
+        "appelido" : "User",
+        "telefono" : "3485736764"
+    }
+]

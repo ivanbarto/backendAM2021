@@ -1,0 +1,17 @@
+
+     [
+        {
+            "id" : 1,
+            "fecha_inicio" : "Martes, 12 de diciembre",
+            "fecha_fin" : "Miércoles, 13 de diciembre",
+            "descripcion" : "Este evento está destinado a los aficionados del hogar, que desean mantener los aspectos más relevantes en sus ratos libres. Este curso completamente gratuito te permitirá ahorrarte mucho dinero, al mismo tiempo que mejoras tus habilidades técnicas",
+            "lugar" : "Club Atlético San Jorge - San Jorge"
+        },
+        {
+            "id" : 2,
+            "fecha_inicio" : "Jueves, 14 de diciembre",
+            "fecha_fin" : "Viernes, 15 de diciembre",
+            "descripcion" : "Este evento está destinado a los aficionados del hogar, que desean mantener los aspectos más relevantes en sus ratos libres. Este curso completamente gratuito te permitirá ahorrarte mucho dinero, al mismo tiempo que mejoras tus habilidades técnicas",
+            "lugar" : "Club Atlético San Jorge - San Jorge"
+        }
+    ]
