@@ -5,7 +5,7 @@ const _ = require('underscore');
 
 
 
-router.get('/login', (req, res) => {
+router.post('/login', (req, res) => {
     const { email, password } = req.body;
     var success = false;
 
@@ -25,14 +25,46 @@ router.get('/login', (req, res) => {
     });
 
     if (success) {
-        res.status(200).json({ 
-            "success": "true",
-            "mensaje": "credenciales validas" 
-     });;
+        res.status(200).json({
+            "success": true,
+            "mensaje": "credenciales validas"
+        });;
     } else {
-        res.status(401).json({ 
-            "success": "false",
+        res.status(401).json({
+            "success": false,
             "mensaje": "credenciales incorrectas"
+        });
+    }
+});
+
+router.post('/register', (req, res) => {
+    const { email, password, nombre, apellido, telefono } = req.body;
+    var success = false;
+
+    console.log(req.body);
+    console.log(email, password, nombre, apellido, telefono);
+
+    sleep(3000);
+
+    if (email && password && nombre && apellido && telefono) {
+        var users = []
+        users = require('./users.json');
+        const id = users.length + 1;
+        const newUser = { ...req.body, id };
+        users.push(newUser);
+        console.log(users);
+        success = true
+    }
+
+    if (success) {
+        res.status(200).json({
+            "success": "true",
+            "mensaje": "usuario creado"
+        });;
+    } else {
+        res.status(400).json({
+            "success": "false",
+            "mensaje": "no se enviaron los campos correctos"
         });
     }
 });
